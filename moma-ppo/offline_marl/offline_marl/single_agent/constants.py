@@ -1,0 +1,2 @@
+SINGLE_AGENT_ALGOS = ['iql']
+
