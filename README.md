@@ -80,13 +80,6 @@ conda activate omarl
 
 conda install numpy==1.22.1
 conda install gym==0.21.0
-
-conda install -c conda-forge glew
-conda install -c conda-forge mesalib
-conda install -c menpo glfw3
-
-pip install pip==24.0
-pip install mujoco-py==2.1.2.14
 ```
 
 
@@ -95,6 +88,13 @@ pip install mujoco-py==2.1.2.14
     *    Extract the downloaded mujoco210 directory into `~/.mujoco/mujoco210.`
     If you want to specify a nonstandard location for the package, use the env variable `MUJOCO_PY_MUJOCO_PATH`.
     * add `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:path_to_mujoco/mujoco210/bin` to `.bashrc`
+    * ```
+      conda install -c conda-forge glew
+      conda install -c conda-forge mesalib
+      conda install -c menpo glfw3
+      pip install pip==24.0
+      pip install mujoco-py==2.1.2.14
+      ```
 
 
 3. install D4RL
